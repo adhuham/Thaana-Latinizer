@@ -10,7 +10,7 @@ use Thaana\ThaanaLatinizer;
 
 $thaana = new ThaanaLatinizer();
 
-$latinized = $thaana->latinize('މިއަދަކީ ރީތި ދުވަހެކެވެ.');
+$latinized = $thaana->latinize('މިއަދަކީ ރީތި ދުވަހެކެވެ.'); // miadhakee reethi dhuvahekeve.
 ```
 
 ## License
