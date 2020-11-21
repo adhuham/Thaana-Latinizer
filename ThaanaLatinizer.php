@@ -1,5 +1,5 @@
 <?php
-use Thaana;
+namespace Thaana;
 
 /*
  * Thaana Latinizer - Converts Thaana characters into latin
