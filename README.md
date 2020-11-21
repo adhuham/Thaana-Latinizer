@@ -6,6 +6,8 @@ Converts Thaana characters into latin
 
 ## Use
 ```php
+use Thaana\ThaanaLatinizer;
+
 $thaana = new ThaanaLatinizer();
 
 $latinized = $thaana->latinize('މިއަދަކީ ރީތި ދުވަހެކެވެ.');
