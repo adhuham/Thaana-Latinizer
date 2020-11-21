@@ -45,7 +45,7 @@ class ThaanaLatinizer
     public function latinize($str)
     {
         
-        $latinized = strtr($str $this->buildMap());
+        $latinized = strtr($str, $this->buildMap());
         $latinized = $this->trimExtra($latinized);
 
         return $latinized;
