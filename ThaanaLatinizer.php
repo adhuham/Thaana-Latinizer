@@ -1,4 +1,6 @@
 <?php
+use Thaana;
+
 /*
  * Thaana Latinizer - Converts Thaana characters into latin
  * 
@@ -45,7 +47,7 @@ class ThaanaLatinizer
     public function latinize($str)
     {
         
-        $latinized = strtr($str, $this->buildMap());
+        $latinized = strtr($str, $this->charMap);
         $latinized = $this->trimExtra($latinized);
 
         return $latinized;
