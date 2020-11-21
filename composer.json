@@ -1,0 +1,20 @@
+{
+    "name": "thaana/thaana-latinizer",
+    "description": "Converts Thaana characters to Latin",
+    "keywords": ["thaana","latin"],
+    "homepage": "https://github.com/adhuham/Thaana-Latinizer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Adhuham",
+            "homepage": "https://adhuham.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "files": ["ThaanaLatinizer.php"]
+    }
+}
+
